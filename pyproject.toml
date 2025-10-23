@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=45", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,11 +7,16 @@ name = "ai-gpu-pkgs"
 version = "0.1.0"
 description = "Automatic GPU package installer for AI/ML development"
 readme = "README.md"
-license = "MIT"
 requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "mrbeandev", email = "mrbeandev@gmail.com"},
+]
+keywords = ["ai", "gpu", "cuda", "pytorch", "model-context-protocol"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
