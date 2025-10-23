@@ -41,7 +41,7 @@ This command will:
 To install in development mode:
 
 ```bash
-git clone https://github.com/yourusername/cuda-auto-installer.git
+git clone https://github.com/mrbeandev/cuda-auto-installer.git
 cd cuda-auto-installer
 pip install -e .
 ```
